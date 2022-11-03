@@ -1,10 +1,18 @@
 import java.lang.ProcessBuilder.Redirect.Type;
 import java.util.jar.Attributes.Name;
 
+import javax.net.ssl.SSLSessionBindingListener;
+
+import java.util.ArrayList;
+
 public class Main 
 {
     public static void main(String[] args)
+
+
     {
+
+        ArrayList<Song> songlist = new ArrayList<Song>();
         System.out.println("Dime's CW1 submission");
 
         Song whatIveDone = new Song("What I've done", "Linkin Park", 44512512);
@@ -48,6 +56,25 @@ public class Main
 
          MockingIt.print();
 
+    
+
+
+    songlist.add(whatIveDone);
+    songlist.add(soul);
+    songlist.add(streatham);
+    songlist.add(funkyfriday);
+    songlist.add(gutenTag);
+    songlist.add(Waiting);
+    songlist.add(ProfessorX);
+    songlist.add(BeforeIForget);
+    songlist.add(MockingIt);
+
+
+
     }
+
+
+
+
+
 }
-         
