@@ -1,7 +1,8 @@
 import java.lang.ProcessBuilder.Redirect.Type;
 import java.util.jar.Attributes.Name;
 
-public class Main {
+public class Main 
+{
     public static void main(String[] args)
     {
         System.out.println("Dime's CW1 submission");
@@ -15,8 +16,38 @@ public class Main {
         soul.print();
         
 
-    }    Song both = new Song (title: "Both", name: "Headie One", plays 142345);
+        Song both = new Song ("Both", "Headie One", 142345);
 
          both.print();
 
-}       
+       Song streatham = new Song ( "Streatham", "Dave", 13456);
+
+         streatham.print();
+
+         Song funkyfriday = new Song ("Funky Friday","Fredo", 23455);
+
+         funkyfriday.print();
+
+         Song gutenTag = new Song ("Guten Tag","Hardy Caprio,DigDat", 134124);
+
+         gutenTag.print();
+
+         Song Waiting = new Song ("Waiting","Skrapz,B Anca",15336); 
+
+         Waiting.print();
+
+         Song ProfessorX = new Song ("Professor X", "Dave",15336);
+         
+         ProfessorX.print();
+
+         Song BeforeIForget = new Song ("Before I Forget", "Slipknot", 654322);
+
+         BeforeIForget.print();
+
+         Song MockingIt = new Song ("Mokiing It","JAY1", 435211); 
+
+         MockingIt.print();
+
+    }
+}
+         
